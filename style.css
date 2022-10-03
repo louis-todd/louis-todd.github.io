@@ -1,0 +1,44 @@
+* {
+  /* global reset */
+  margin: 0;
+  padding: 0;
+  /* border box sizing - width and height fixed */
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+header,
+p {
+  font-weight: 400;
+  color: white;
+}
+
+header {
+  font-family: "Anybody";
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+
+p {
+  font-family: "Roboto Mono";
+  font-size: 2rem;
+}
+
+.name {
+  margin-top: 175px;
+}
